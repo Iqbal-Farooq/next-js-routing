@@ -1,0 +1,71 @@
+{
+  "pages": {
+    "/(landingpage)/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(landingpage)/page.js"
+    ],
+    "/(landingpage)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(landingpage)/layout.css",
+      "static/chunks/app/(landingpage)/layout.js"
+    ],
+    "/(content)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(content)/layout.css",
+      "static/chunks/app/(content)/layout.js"
+    ],
+    "/(content)/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(content)/not-found.js"
+    ],
+    "/(content)/news/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(content)/news/page.js"
+    ],
+    "/(content)/archive/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(content)/archive/layout.js"
+    ],
+    "/(content)/archive/@latest/default": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(content)/archive/@latest/default.js"
+    ],
+    "/(content)/archive/@archive/[[...filter]]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(content)/archive/@archive/[[...filter]]/page.js"
+    ],
+    "/(content)/archive/@archive/[[...filter]]/error": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(content)/archive/@archive/[[...filter]]/error.js"
+    ],
+    "/(content)/news/[slug]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(content)/news/[slug]/page.js"
+    ],
+    "/(content)/news/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(content)/news/loading.js"
+    ],
+    "/(content)/news/[slug]/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(content)/news/[slug]/loading.js"
+    ],
+    "/(content)/archive/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(content)/archive/loading.js"
+    ]
+  }
+}

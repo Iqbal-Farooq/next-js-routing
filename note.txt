@@ -1,0 +1,6 @@
+parallel routes allows us to render the contnet of two seperate routes (seperate paths) in one page
+in normal layouts we hava just recieve a children prop (next js taking care of automatically)
+but when we have a layout having parallel route folders next it then we actually not just have a children prop
+but instead we can have a one prop  per parallel route (the name we chosen after @symbol) 
+-------------------------
+we can group routes using routgroup by making a folder () starting with open and close braces
